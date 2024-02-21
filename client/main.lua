@@ -170,7 +170,7 @@ local function createPeds()
         exports['qb-target']:AddTargetEntity(ShopPed["casino"], {
             options = {
                 {
-                    label = 'Sell Chips',
+                    label = 'Vender fichas',
                     icon = 'fa-solid fa-coins',
                     action = function()
                         TriggerServerEvent("qb-shops:server:sellChips")
